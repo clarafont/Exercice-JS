@@ -1,0 +1,35 @@
+.btn-switch {
+  margin: 3em;
+}
+
+
+body {
+  height: 3500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../img/fond_2.svg");
+  background-color: #041647;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+svg {
+  position : fixed;
+  z-index : 2;
+  transition : transform 2s;
+}
+
+.transform {
+  transform : translateY(-400px);
+}
+
+#path {
+  margin : 4em;
+  width : 16%;
+  stroke-dasharray: 1000;
+  stroke-dashoffset : 1000;
+  stroke : #fff4a5;
+  stroke-width: 5px;
+ fill : rgba(4,22,71,0);
+}
